@@ -1,0 +1,23 @@
+1/ cài đặt project:
+npx create-react-app my-app
+2/ chạy project:
+npm run start
+3/ flow code của ReactJS
+index.html (id = "root")
+=> index.js (<App/>)
+=> App.js (chú ý return của function App)
+
+Cài đặt bootstrap
+npm install bootstrap jquery popper.js
+
+Nhúng file bootstrap vào index.js
+import "../node_modules/bootstrap/dist/css/bootstrap.min.js";
+import "../node_modules/jquery/dist/jquery.slim";
+import "../node_modules/popper.js/dist/popper";
+import "../node_modules/bootstrap/dist/js/bootstrap";
+
+4/ ReactJS không đọc được html, mà chỉ đọc được jsx
+5/ JSX giúp cho chúng ta viết html và js vào một file
+6/ lợi ích và tiêu chí để chia component:
+    - Tái sử dụng ( ưu tiên)
+    - Dễ quản lí và mở rộng ứng dụng
